@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.galkinivan.mymonstersgame.MenuActivity">
+
+    <Button
+        android:id="@+id/openMapButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open Map Activity"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/openBattleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open Battle Activity"
+        android:layout_below="@id/openMapButton"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+</RelativeLayout>

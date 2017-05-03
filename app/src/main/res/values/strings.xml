@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyMonstersGame</string>
+    <string name="map_activity_label">Map activity</string>
+    <string name="battle_activity_label">Battle activity</string>
+</resources>
